@@ -1,6 +1,6 @@
 ## 📄 Description
 
-This website is dedicated to showcasing information about famous martial artists from the 1980s and 1990s. 
+This website built with HTML and CSS is dedicated to showcasing information about famous martial artists from the 1980s and 1990s. 
 Users can explore detailed profiles of legendary martial artists who left an indelible mark on the world of martial arts and pop culture.
 
 * No frameworks
