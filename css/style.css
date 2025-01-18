@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html {
+  scrollbar-color: #ceae49 #f4f4f4;
+  scrollbar-width: auto;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  width: 100vw;
+  height: 11vh;
+  background: #ffffff;
+  border-bottom: 2px solid #ceae49;
+}
+/* logo */
+.logoATag {
+  /* border: 1px solid red; */
+  float: left;
+  margin-top: 1.5vh;
+  margin-left: 12vw;
+}
+.logo {
+  /* border: 1px solid red; */
+  width: 6vw;
+  height: 8vh;
+  text-decoration: none;
+  background-image: url(../images/logo1.png);
+  background-size: contain;
+  background-position: center; /* Centers the image in the middle */
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+/* nav-list */
+nav {
+  /* border: 1px solid blue; */
+  width: 10vw;
+  height: 4vh;
+  margin-top: 4vh;
+  float: left;
+  margin-left: 27.5vw;
+  margin-right: auto;
+}
+ul {
+  /* border: 1px solid blue; */
+  font-size: 1.1em;
+  font-family: mulish;
+  text-transform: capitalize;
+}
+ul li {
+  /* border: 1px solid blue; */
+  float: left;
+  margin-left: 1.5vw;
+}
+ul li a {
+  color: #000000;
+  transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+}
+ul li a:hover {
+  color: #cc9e0e;
+}
+
+/* FOOTER */
+
+footer {
+    /* border: 1px solid red; */
+   height: auto;
+   color: #1d1d1d;
+   /* border-top: 1px solid #D2FF06; */
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .social-media-container {
+   /* border: 1px solid red; */
+ 
+   width: 4vw;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 1vh;
+ }
+ i {
+   font-size: 1.3em;
+   color: #1d1d1d;
+   /* border: 1px solid red; */
+   margin-left: 0.5vw;
+   transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   -webkit-transition: all 0.2s;
+   -o-transition: all 0.2s;
+   -ms-transition: all 0.2s;
+ }
+ #giticon:hover {
+   cursor: pointer;
+   color: #ceae49;
+ }
+ #linkedinicon:hover {
+   cursor: pointer;
+   color: #ceae49;
+ }
+ .copy-and-terms-container {
+   /* border: 1px solid red; */
+   margin-top: 1vh;
+   margin-bottom: 1.5vh;
+   text-align: center;
+   /* text-shadow:4px 0px 5px #0c0257; */
+ }
+ #copyright {
+   all: unset;
+   font-size: 1em;
+ }
+ 
+ /*EO FOOTER */
+
+/* Index Content */
+
+.cta {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/CTA.jpeg);
+  background-size: cover;
+}
+
+h2{
+    text-align: center;
+    font-family: mulish;
+    letter-spacing: 0.5em;
+    color: #cc9e0e;
+    text-transform: uppercase;
+}
+/* top characters container */
+.artistsContainerTop {
+  /* border: 1px solid red; */
+  width: 76vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* bottom characters container */
+.artistsContainerBottom{
+    /* border: 1px solid red; */
+    width: 38vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.characters-container-image {
+  border: 2px solid #cc9e0e;
+  background-color: rgba(206, 174, 73, 0.7);
+  border-radius: 15px;
+  width: 14vw;
+  height: 36vh;
+  float: left;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  margin-bottom: 2vh;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  background-image: url(../images/png-transparent-bruce-lee-ram-charan-bruce-lee-the-fighter-film-director-tollywood-bruce-lee-celebrities-han.png);
+  background-size: cover;
+}
+.characters-container-image:hover {
+cursor: pointer;
+  background-color: rgba(206, 174, 73, 0.4);
+  border: 2px solid #c59b13;
+  transform : scale(1.003);
+  -moz-transform : scale(1.003);
+  -webkit-transform : scale(1.003);
+  -o-transform : scale(1.003);
+  -ms-transform : scale(1.003);
+
+}
+.characters-container-image-symbol{
+    /* border: 2px solid #000000; */
+    border-radius: 15px;
+    width: 14vw;
+    height: 36vh;
+    float: left;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    background-image: url(../images/Martial-Artists-03-12-2024.png);
+    background-size: contain;
+    background-position: center; /* Centers the image in the middle */
+    background-repeat: no-repeat; /* Prevent tiling */
+}
+.name {
+border: 1px solid rgb(204, 158, 14);
+border-radius: 10px;
+  /* background-color: #ffffff; */
+  background-color: rgba(206, 174, 73, 0.7);
+  width: 11.5vw;
+  height: 3.75vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30vh;
+}
+.character-name {
+    /* border: 1px solid red; */
+  font-family: mulish;
+  font-size: 1.1em;
+  /* color: #cc9e0e; */
+  /* color: #000000; */
+  color: #ffffff;
+  letter-spacing: 0.2em;
+  padding-top: 0.5vh;
+  text-align: center;
+}
+
+/* characters section */
+
+.artistsSectionMainContainer{
+    /* border: 1px solid red; */
+    margin-left: 12vw;
+    width: 76vw;
+    height: auto;
+}
+h3{
+    font-family: mulish;
+    font-size: 2em;
+    color: #cc9e0e;
+    text-transform: capitalize;
+
+}
+.deathDate{
+     /* border: 1px solid blue; */
+    color: rgb(188, 186, 186);
+    font-size: 0.5em;
+}
+.leftImage{
+    /* border: 1px solid blue; */
+    border-radius: 15px;
+    width: 16vw;
+    height: 45vh;
+    float: left;
+    background-image: url(../images/bl00040mb.jpg);
+    background-size: cover;
+}
+.centerImage{
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    width: 42vw;
+    float: left;
+    height: 45vh;
+    margin-left: 0.5vw;
+    background-image: url(../images/bruce-lee-quotes-entrepreneurs-1.jpeg);
+    background-size: cover;
+}
+.rightTopImage{
+    /* border: 1px solid green; */
+    border-radius: 15px;
+    float: left;
+    width: 15vw;
+    height: 22vh;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    background-image: url(../images/TMFO-BruceLee-4-1-548x274.jpg);
+    background-size: cover;
+}
+.rightbottomImage{
+    /* border: 1px solid green; */
+    border-radius: 15px;
+    float: left;
+    width: 15vw;
+    height: 22vh;
+    margin-left: 0.5vw;
+    background-image: url(../images/16_6_bruce-lee1_1000_420_90_c1.jpg);
+    background-size: cover;
+}
+.artistsSectionMainContainer1{
+    /* border: 1px solid red; */
+}
+.bioP{
+   /* border: 1px solid red; */
+   width: 45vw;
+   margin-left: 12vw;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1.1em;
+   float: left;
+   color:#1d1d1d
+
+}
+table{
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 5vw;
+    border-collapse: collapse;
+    /* width: 20vw; */
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 1em;
+    color: #1d1d1d;
+}
+th, td{
+    border: 1px solid #ceae49;
+    /* border-top: none; */
+    /* border-left: none; */
+    /* border-right: none; */
+    padding-top: 0.75vh;
+    padding-bottom: 0.75vh;
+    padding-left: 0.75vw;
+    padding-right: 0.75vw;
+}
+th{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(206, 174, 73, 0.4);
+}
+
